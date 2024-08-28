@@ -14,11 +14,86 @@ body {
 
 #page {
   width: 1100px;
-  margin: 90px 80px;
+  margin: 90px 80px 0;
+}
+
+#page p {
+  font-size: 16px;
 }
 
 section .headline {
   color: #e1624f;
   font-size: 16px;
   font-weight: bold;
+}
+
+section .subtitle {
+  text-align: center;
+  color: #333333;
+  font-style: italic;
+}
+
+section .bold {
+  font-weight: bold;
+}
+
+section ol li {
+  font-size: 26px;
+  margin-left: 40px;
+}
+
+section ul li {
+  font-size: 16px;
+  margin-left: 20px;
+  list-style: disc;
+  font-weight: bold;
+}
+
+section ol,
+section ul {
+  margin: 20px 0;
+}
+
+section ul li::marker {
+  color: #333333;
+}
+
+.divider {
+  border: solid 1px #d9d9d9;
+  width: 100%;
+  margin: 40px 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h2,
+h3 {
+  margin: 8px 0;
+}
+
+section img {
+  margin: 40px 0 20px;
+  border-radius: 28px;
+}
+
+main .todo-things {
+  text-align: center;
+  margin: 40px 0;
+}
+
+footer {
+  text-align: center;
+  margin: 50px 0 20px;
 }
